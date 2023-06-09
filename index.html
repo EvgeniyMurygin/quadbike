@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Экскурсии на квадроциклах</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top">
+          <div class="header__top-inner">
+            <a class="logo" href="#body">
+              <img class="logo__img" src="images/logo/logo.svg" alt="logo">
+            </a>
+            <nav class="menu">
+              <button class="menu__btn">
+                <span class="menu__btn-line"></span>
+                <span class="menu__btn-line"></span>
+                <span class="menu__btn-line"></span>
+                <span class="menu__btn-line"></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#routes">Маршруты </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#foto">Галерея</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#questions">Вопрос-Ответ</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#contacts">Контакты</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link  menu__item--active" href="#">Забронировать</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__item-phone" href="tel:380503154367">+38 (050) 315 43 67</a>
+                </li>
+                <li class="menu__item">
+                  <a class="header__info-btn">Перезвоните мне</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <h1 class="header__title">Экскурсии на квадроциклах по горам</h1>
+        <p class="header__text">приезжайте за новыми ощущениями и эмоциями!</p>
+        <a class="header__btn" href="#">Подобрать маршрут</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="slider__header">
+    <div class="slider__header-item" style="background-image: url(images/slider/slider-bg1.jpg);"></div>
+    <div class="slider__header-item" style="background-image: url(images/slider/slider-bg2.jpg);"></div>
+    <div class="slider__header-item" style="background-image: url(images/slider/slider-bg3.jpg);"></div>
+  </section>
+
+  <main>
+    <div class="benefits">
+      <div class="container">
+        <div class="benefits__items">
+          <div class="benefits__item">
+            <img class="benefits__img" src="images/icon/benefits-1.svg" alt="benefits icon">
+            <h6 class="benefits__title">Увлекательные экскурсии</h6>
+            <p class="benefits__text">Маршруты от лесных дорожек до полного бездорожья!</p>
+          </div>
+          <div class="benefits__item">
+            <img class="benefits__img" src="images/icon/benefits-2.svg" alt="benefits icon">
+            <h6 class="benefits__title">Надежная техника</h6>
+            <p class="benefits__text">18 квадроциклов всех японских брендов</p>
+          </div>
+          <div class="benefits__item">
+            <img class="benefits__img" src="images/icon/benefits-3.svg" alt="benefits icon">
+            <h6 class="benefits__title">Экипировка бесплатно</h6>
+            <p class="benefits__text">Необходимая экипировка <br> выдается бесплатно</p>
+          </div>
+          <div class="benefits__item">
+            <img class="benefits__img" src="images/icon/benefits-4.svg" alt="benefits icon">
+            <h6 class="benefits__title">Опытные инструктора</h6>
+            <p class="benefits__text">Обеспечат полную безопасность Вашего отдыха</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="routes" id="routes">
+      <div class="container">
+        <div class="routes__inner">
+          <h2 class="routes__title title">Наши маршруты</h2>
+          <div class="routes__box">
+            <div class="routes-base">
+              <h3 class="routes-base__title">БАЗОВЫЙ</h3>
+              <p class="routes__price">от 2000 <span>₴</span></p>
+              <ul class="routes__list">
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-clock.svg" alt="icon clock">
+                  <p class="routes__item-time">Время в пути:</p>
+                  <p class="routes__item-hours ">1,5 - 2 часа</p>
+                </li>
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-marker.svg" alt="icon marker">
+                  <p class="routes__item-distance">Расстояние:</p>
+                  <p class="routes__item-num">20 - 25 км</p>
+                </li>
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-star.svg" alt="icon star">
+                  <p class="routes__item-difficulty">Сложность:</p>
+                  <p class="routes__item-stars ">5***</p>
+                </li>
+              </ul>
+              <div class="routes__marker">
+                <h4 class="routes__marker-title">Маршрут</h4>
+                <p class="routes__marker-text">
+                  курорт Яремче – горная долина Щивка (700 м.) – гора Синячка (1400 м.) – приселок Дора – курорт Яремче
+                </p>
+                <a class="routes-more__btn" href="#">Подробнее</a>
+                <a class="routes-book__btn" href="#">Забронировать</a>
+              </div>
+            </div>
+            <div class="slider__base">
+              <div class="slider__base-item">
+                <img class="slider__base-img" src="images/slider/experience-1.jpg" alt="foto">
+              </div>
+              <div class="slider__base-item">
+                <img class="slider__base-img" src="images/slider/experience-2.jpg" alt="foto">
+              </div>
+              <div class="slider__base-item">
+                <img class="slider__base-img" src="images/slider/experience-3.jpg" alt="foto">
+              </div>
+            </div>
+          </div>
+          <div class="routes__box routes__box-advanced">
+            <div class="routes-advanced">
+              <h3 class="routes-advanced__title">РАСШИРЕННЫЙ</h3>
+              <p class="routes__price">от 8000 <span>₴</span></p>
+              <ul class="routes__list">
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-clock.svg" alt="icon clock">
+                  <p class="routes__item-time">Время в пути:</p>
+                  <p class="routes__item-hours ">6 - 8 часа</p>
+                </li>
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-marker.svg" alt="icon marker">
+                  <p class="routes__item-distance">Расстояние:</p>
+                  <p class="routes__item-num">60 - 70 км</p>
+                </li>
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-star.svg" alt="icon star">
+                  <p class="routes__item-difficulty">Сложность:</p>
+                  <p class="routes__item-stars ">5***</p>
+                </li>
+              </ul>
+              <div class="routes__marker">
+                <h4 class="routes__marker-title">Маршрут</h4>
+                <p class="routes__marker-text">
+                  курорт Яблуница – перевал Околы (Черная Тиса) – поселок Быстрица – курорт Яблуница
+                </p>
+                <a class="routes-more__btn" href="#">Подробнее</a>
+                <a class="routes-book__btn" href="#">Забронировать</a>
+              </div>
+            </div>
+            <div class="slider__advanced">
+              <div class="slider__advanced-item">
+                <img class="slider__advanced-img" src="images/slider/advanced-1.jpg" alt="foto">
+              </div>
+              <div class="slider__advanced-item">
+                <img class="slider__advanced-img" src="images/slider/advanced-2.jpg" alt="foto">
+              </div>
+              <div class="slider__advanced-item">
+                <img class="slider__advanced-img" src="images/slider/advanced-3.jpg" alt="foto">
+              </div>
+            </div>
+          </div>
+          <div class="routes__box">
+            <div class="routes-experience">
+              <h3 class="routes-experience__title">Experience</h3>
+              <p class="routes__price">от 3500 <span>₴</span></p>
+              <ul class="routes__list">
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-clock.svg" alt="icon clock">
+                  <p class="routes__item-time">Время в пути:</p>
+                  <p class="routes__item-hours ">4 часа</p>
+                </li>
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-marker.svg" alt="icon marker">
+                  <p class="routes__item-distance">Расстояние:</p>
+                  <p class="routes__item-num">40 - 50 км</p>
+                </li>
+                <li class="routes__item">
+                  <img class="routes__item-img" src="images/routes/icon-star.svg" alt="icon star">
+                  <p class="routes__item-difficulty">Сложность:</p>
+                  <p class="routes__item-stars ">5***</p>
+                </li>
+              </ul>
+              <div class="routes__marker">
+                <h4 class="routes__marker-title">Маршрут</h4>
+                <p class="routes__marker-text">
+                  курорт Яблуница – горный хребет Кукул (1539 м.) – урочище Козьмещик – курорт Яблуница
+                </p>
+                <a class="routes-more__btn" href="#">Подробнее</a>
+                <a class="routes-book__btn" href="#">Забронировать</a>
+              </div>
+            </div>
+            <div class="slider__experience">
+              <div class="slider__experience-item">
+                <img class="slider__experience-img" src="images/slider/experience-1.jpg" alt="foto">
+              </div>
+              <div class="slider__experience-item">
+                <img class="slider__experience-img" src="images/slider/experience-2.jpg" alt="foto">
+              </div>
+              <div class="slider__experience-item">
+                <img class="slider__experience-img" src="images/slider/experience-3.jpg" alt="foto">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="route-selection">
+      <div class="container">
+        <h3 class="route-selection__title">Затрудняетесь выбрать маршрут?</h3>
+        <p class="route-selection__text">Пройдите тест и мы поможем вам подобрать оптимальную под вас экскурсию</p>
+        <button class="route-selection__btn">Начать тест</button>
+      </div>
+    </div>
+    <section class="foto" id="foto">
+      <h2 class="foto__title title">Фото</h2>
+      <div class="slider__foto">
+        <div class="slider__foto-items">
+          <div class="slider__foto-item">
+            <img class="slider__foto-img" src="images/slider/slider-foto1.jpg" alt="foto">
+            <img class="slider__foto-img" src="images/slider/slider-foto2.jpg" alt="foto">
+            <img class="slider__foto-img" src="images/slider/slider-foto3.jpg" alt="foto">
+          </div>
+        </div>
+        <div class="slider__foto-items">
+          <div class="slider__foto-item">
+            <img class="slider__foto-img" src="images/slider/slider-foto1.jpg" alt="foto">
+            <img class="slider__foto-img" src="images/slider/slider-foto2.jpg" alt="foto">
+            <img class="slider__foto-img" src="images/slider/slider-foto3.jpg" alt="foto">
+          </div>
+        </div>
+        <div class="slider__foto-items">
+          <div class="slider__foto-item">
+            <img class="slider__foto-img" src="images/slider/slider-foto1.jpg" alt="foto">
+            <img class="slider__foto-img" src="images/slider/slider-foto2.jpg" alt="foto">
+            <img class="slider__foto-img" src="images/slider/slider-foto3.jpg" alt="foto">
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="video__bg">
+          <img class="video__bg-img" src="images/photo/video.jpg" alt="video">
+          <p class="video__name">Квадроциклы в Карпатах</p>
+          <a data-fancybox class="video-link" href="https://youtu.be/VhbA4iGKQ6g"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="container">
+        <h2 class="team__title title">Наша команда</h2>
+        <div class="team__items">
+          <div class="team__item">
+            <img class="team__item-img" src="images/team/foto-1.jpg" alt="images">
+            <div class="team__item-desc">
+              <h4 class="team__item-name">Юлиана</h4>
+              <p class="team__item-position">руководитель</p>
+            </div>
+          </div>
+          <div class="team__item">
+            <img class="team__item-img" src="images/team/foto-2.jpg" alt="images">
+            <div class="team__item-desc">
+              <h4 class="team__item-name">Максим</h4>
+              <p class="team__item-position">старший инструктор</p>
+            </div>
+          </div>
+          <div class="team__item">
+            <img class="team__item-img" src="images/team/foto-3.jpg" alt="images">
+            <div class="team__item-desc">
+              <h4 class="team__item-name">Кристина</h4>
+              <p class="team__item-position">администратор</p>
+            </div>
+          </div>
+          <div class="team__item">
+            <img class="team__item-img" src="images/team/foto-4.jpg" alt="images">
+            <div class="team__item-desc">
+              <h4 class="team__item-name">Юрий</h4>
+              <p class="team__item-position">старший механик</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2 class="services__title title">Условия предоставления услуг</h2>
+        <div class="services__items">
+          <div class="services__item">
+            <p class="services__item-text">
+              При прокате или аренде строго соблюдать правила техники безопасности и все требования инструктора!
+            </p>
+          </div>
+          <div class="services__item">
+            <p class="services__item-text">
+              К управлению <span>НЕ ДОПУСКАЮТСЯ</span> лица младше 16 лет и лица в алкогольном опьянении!
+            </p>
+          </div>
+          <div class="services__item">
+            <p class="services__item-text">
+              Распивать спиртные напитки во время проката, аренды <span>ЗАПРЕЩЕНО!</span> (После? На ваше усмотрение)
+            </p>
+          </div>
+          <div class="services__item">
+            <p class="services__item-text">
+              Управление осуществляйте в меру своих сил и возможностей. Не переоценивайте себя! Это опасно!!!
+            </p>
+          </div>
+          <div class="services__item">
+            <p class="services__item-text">
+              Перед каждым катанием опытный инструктор научит Вас основам управления и будет сопровождать на протяжении
+              всего маршрута.
+            </p>
+          </div>
+          <div class="services__item">
+            <p class="services__item-text">
+              При прокате или аренде строго соблюдать правила техники безопасности и все требования инструктора!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="special-offers" id="special-offers">
+      <div class="container">
+        <h2 class="special-offers__title title">Спецпредложения</h2>
+        <div class="special-offers__inner">
+
+          <div class="special-offers__box">
+            <div class="special-offers__item">
+              <img class="special-offers__item-img" src="images/offers/offers-1.jpg" alt="images">
+            </div>
+            <div class="special-offers__item">
+              <div class="special-offers__discount">
+                <h3 class="special-offers__discount-title">
+                  Скидка 10%
+                  <span>на День Рождение</span>
+                </h3>
+                <p class="special-offers__discount-text">
+                  в честь Дня Рождения - дарим имениннику скидку 10%
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="special-offers__box">
+            <div class="special-offers__item">
+              <img class="special-offers__item-img" src="images/offers/offers-2.jpg" alt="images">
+            </div>
+            <div class="special-offers__item">
+              <div class="special-offers__discount">
+                <h3 class="special-offers__discount-title">
+                  Скидка 10%
+                </h3>
+                <p class="special-offers__discount-text">
+                  клиентам Ex-Kuban на услуги Загородного клуба Ягода Малина
+                </p>
+                <button class="special-offers__discount-btn" href="#">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gift-certificate">
+      <div class="container">
+        <h2 class="gift-certificates__title title">Подарочный сертификат</h2>
+        <p class="gift-certificates__text">
+          Хотите сделать оригинальный подарок? <br> Подарите незабываемые эмоции - лучший подарок!
+        </p>
+        <div class="gift-certificates__items">
+          <div class="gift-certificates__item">
+            <p class="gift-certificates__item-text">
+              Хотите удивить своих близких оригинальным подарком? Подарочный сертификат на экскурсию на квадроциклах
+              станет не просто интересным подарком, но и реальной возможностью приблизить Ваших друзей и близких к
+              новому увлечению.
+            </p>
+            <a class="gift-certificates__item-btn" href="#">Подберем сертификат для вас</a>
+          </div>
+
+          <div class="gift-certificates__item">
+            <img class="gift-certificates__item-img" src="images/offers/certificates.png" alt="images">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions" id="questions">
+      <div class="container">
+        <h2 class="questions__title title">Вопросы-ответы</h2>
+        <div class="questions__inner">
+          <div class="questions__items">
+            <div class="questions__item questions__item--active">
+              <h4 class="questions__item-title">
+                Где проходит маршрут экскурсии?
+              </h4>
+              <p class="questions__item-text">
+                Экскурсия Экспедиция проводится в районе. Маршрут движения квадроциклов пролегает вдоль живописного
+                пляжа, через еловую рощу, затем через плато цветов и пресноводную реку.
+              </p>
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">
+                Сколько времени катаются на квадроциклах?
+              </h4>
+              <p class="questions__item-text">
+                На экскурсии Экспедиция непосредственно катание на квадроциклах длится 3,5 часа! Вы погоняете вдоль
+                пляжа, форсируете реку, проедете вдоль плато цветов и через рощу.
+              </p>
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">
+                Подходит ли экскурсия для детей?
+              </h4>
+              <p class="questions__item-text">
+                Экскурсия Экспедиция подходит для детей от 5 лет. Дети помладше также могут участвовать, но родители
+                сами должны решить, готов ли ребенок к поездке на квадроциклах.
+              </p>
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">
+                Сопровождает ли экскурсию фотограф?
+              </h4>
+              <p class="questions__item-text">
+                В настоящее время фотограф не сопровождает экскурсию, но если вы хотите сделать фотосессию во время
+                экскурсии, сообщите об этом консультанту! Он свяжеться с фотографом.
+              </p>
+            </div>
+          </div>
+          <div class="questions__box">
+            <img class="questions__box-img" src="images/questions/questions-1.svg" alt="images">
+            <h3 class="questions__box-title">Есть вопросы?</h3>
+            <p class="questions__box-text">
+              Не стесняйтесь обращаться к нам, <br> если у вас есть какие-либо вопросы, предложения или идеи для
+              сотрудничества
+            </p>
+            <a class="questions__box-btn" href="#">Задать вопрос</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="additional-services">
+      <div class="container">
+        <h2 class="additional-services__title title">Дополнительные услуги</h2>
+        <div class="additional-services__items">
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-1.jpg" alt="images">
+            <p class="additional-services__text">Эвакуация, ремонт квадроциклов</p>
+          </a>
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-2.jpg" alt="images">
+            <p class="additional-services__text">Фото, видеосъемка</p>
+          </a>
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-3.jpg" alt="images">
+            <p class="additional-services__text">Транспортировка техники</p>
+          </a>
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-4.jpg" alt="images">
+            <p class="additional-services__text">Заправка, чекап, мойка</p>
+          </a>
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-5.jpg" alt="images">
+            <p class="additional-services__text">Корпоративы, тимбилдинги</p>
+          </a>
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-6.jpg" alt="images">
+            <p class="additional-services__text">Выездной кейтеринг</p>
+          </a>
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-7.jpg" alt="images">
+            <p class="additional-services__text">Индивидуальные маршруты</p>
+          </a>
+          <a class="additional-services__item" href="#">
+            <img class="additional-services__img" src="images/services/services-8.jpg" alt="images">
+            <p class="additional-services__text">Услуги гида</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__info">
+            <h2 class="contacts__title title">Контакты</h2>
+            <div class="contacts__items">
+              <div class="contacts__item">
+                <img class="contacts__item-img" src="images/icon/home.svg" alt="icon">
+                <p class="contacts__item-text">Закарпаття, с. Тур’я Пасіка</p>
+              </div>
+              <div class="contacts__item">
+                <img class="contacts__item-img" src="images/icon/email.svg" alt="icon">
+                <a class="contacts__item-email" href="mailto:reception1@voevodyno.com">reception1@voevodyno.com</a>
+              </div>
+              <div class="contacts__item">
+                <img class="contacts__item-img" src="images/icon/phone.svg" alt="icon">
+                <a class="contacts__item-phone" href="tel:380503154367">+38 (050) 315 43 67
+                </a>
+              </div>
+              <div class="contacts__item">
+                <img class="contacts__item-img" src="images/icon/clock.svg" alt="icon">
+                <p class="contacts__item-text">Пн - Пт: 9:00 - 18:00 <br> Сб: 9:00 - 17:00 <br> Вс - выходной</p>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__social">
+            <h6 class="contacts__social-title">Написать нам:</h6>
+            <ul class="contacts__social-list">
+              <li class="contacts__social-item">
+                <a class="contacts__social-link" href="#">
+                  <img src="images/icon/whatsapp.svg" alt="whatsapp">
+                </a>
+              </li>
+              <li class="contacts__social-item">
+                <a class="contacts__social-link" href="#">
+                  <img src="images/icon/instagram.svg" alt="instagram">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d56253.82605522573!2d22.6842335488445!3d48.687854572682774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1684566039195!5m2!1sru!2sua"
+            width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a class="footer__logo" href="#body">
+          <img class="footer__logo-img" src="images/logo/footer-logo.svg" alt="logo">
+        </a>
+        <div class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__item">
+              <a class="footer__link" href="#routes">Маршруты</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#foto">Галерея</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#questions">Вопрос-Ответ</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#contacts">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Условия</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#special-offers">Спецпредложения</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <p class="footer__copy-text">
+          © CFMOTO Experience Kuban. Внедорожный полигон CFMOTO и прокат квадроциклов
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
