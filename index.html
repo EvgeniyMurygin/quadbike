@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,11 +19,13 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
+
         <div class="header__top">
           <div class="header__top-inner">
             <a class="logo" href="#body">
               <img class="logo__img" src="images/logo/logo.svg" alt="logo">
             </a>
+  
             <nav class="menu">
               <button class="menu__btn">
                 <span class="menu__btn-line"></span>
@@ -54,8 +57,10 @@
                 </li>
               </ul>
             </nav>
+  
           </div>
         </div>
+
         <h1 class="header__title">Экскурсии на квадроциклах по горам</h1>
         <p class="header__text">приезжайте за новыми ощущениями и эмоциями!</p>
         <a class="header__btn" href="#">Подобрать маршрут</a>
@@ -101,6 +106,7 @@
       <div class="container">
         <div class="routes__inner">
           <h2 class="routes__title title">Наши маршруты</h2>
+
           <div class="routes__box">
             <div class="routes-base">
               <h3 class="routes-base__title">БАЗОВЫЙ</h3>
@@ -127,10 +133,20 @@
                 <p class="routes__marker-text">
                   курорт Яремче – горная долина Щивка (700 м.) – гора Синячка (1400 м.) – приселок Дора – курорт Яремче
                 </p>
-                <a class="routes-more__btn" href="#">Подробнее</a>
+                <!-- <a class="routes-more__btn" href="../quadbike/excursion.html">Подробнее</a> -->
+
+
+                <a class="routes-more__btn" href="excursion.html">Подробнее</a>
+
+                <!-- <a class="simple-ajax-popup-align-top" href="site-assets/ajax/excursion.html">Load content via ajax</a><br>
+                <a class="simple-ajax-popup" href="site-assets/ajax/excursion.html">Load another content via ajax</a> -->
+
+
+
                 <a class="routes-book__btn" href="#">Забронировать</a>
               </div>
             </div>
+
             <div class="slider__base">
               <div class="slider__base-item">
                 <img class="slider__base-img" src="images/slider/experience-1.jpg" alt="foto">
@@ -141,81 +157,90 @@
               <div class="slider__base-item">
                 <img class="slider__base-img" src="images/slider/experience-3.jpg" alt="foto">
               </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="routes__box routes__box-advanced">
+
+          <div class="routes-advanced">
+            <h3 class="routes-advanced__title">РАСШИРЕННЫЙ</h3>
+            <p class="routes__price">от 8000 <span>₴</span></p>
+            <ul class="routes__list">
+              <li class="routes__item">
+                <img class="routes__item-img" src="images/routes/icon-clock.svg" alt="icon clock">
+                <p class="routes__item-time">Время в пути:</p>
+                <p class="routes__item-hours ">6 - 8 часа</p>
+              </li>
+              <li class="routes__item">
+                <img class="routes__item-img" src="images/routes/icon-marker.svg" alt="icon marker">
+                <p class="routes__item-distance">Расстояние:</p>
+                <p class="routes__item-num">60 - 70 км</p>
+              </li>
+              <li class="routes__item">
+                <img class="routes__item-img" src="images/routes/icon-star.svg" alt="icon star">
+                <p class="routes__item-difficulty">Сложность:</p>
+                <p class="routes__item-stars ">5***</p>
+              </li>
+            </ul>
+            <div class="routes__marker">
+              <h4 class="routes__marker-title">Маршрут</h4>
+              <p class="routes__marker-text">
+                курорт Яблуница – перевал Околы (Черная Тиса) – поселок Быстрица – курорт Яблуница
+              </p>
+              <a class="routes-more__btn" href="#">Подробнее</a>
+              <a class="routes-book__btn" href="#">Забронировать</a>
             </div>
           </div>
-          <div class="routes__box routes__box-advanced">
-            <div class="routes-advanced">
-              <h3 class="routes-advanced__title">РАСШИРЕННЫЙ</h3>
-              <p class="routes__price">от 8000 <span>₴</span></p>
-              <ul class="routes__list">
-                <li class="routes__item">
-                  <img class="routes__item-img" src="images/routes/icon-clock.svg" alt="icon clock">
-                  <p class="routes__item-time">Время в пути:</p>
-                  <p class="routes__item-hours ">6 - 8 часа</p>
-                </li>
-                <li class="routes__item">
-                  <img class="routes__item-img" src="images/routes/icon-marker.svg" alt="icon marker">
-                  <p class="routes__item-distance">Расстояние:</p>
-                  <p class="routes__item-num">60 - 70 км</p>
-                </li>
-                <li class="routes__item">
-                  <img class="routes__item-img" src="images/routes/icon-star.svg" alt="icon star">
-                  <p class="routes__item-difficulty">Сложность:</p>
-                  <p class="routes__item-stars ">5***</p>
-                </li>
-              </ul>
-              <div class="routes__marker">
-                <h4 class="routes__marker-title">Маршрут</h4>
-                <p class="routes__marker-text">
-                  курорт Яблуница – перевал Околы (Черная Тиса) – поселок Быстрица – курорт Яблуница
-                </p>
-                <a class="routes-more__btn" href="#">Подробнее</a>
-                <a class="routes-book__btn" href="#">Забронировать</a>
-              </div>
+
+          <div class="slider__advanced">
+            <div class="slider__advanced-item">
+              <img class="slider__advanced-img" src="images/slider/advanced-1.jpg" alt="foto">
             </div>
-            <div class="slider__advanced">
-              <div class="slider__advanced-item">
-                <img class="slider__advanced-img" src="images/slider/advanced-1.jpg" alt="foto">
-              </div>
-              <div class="slider__advanced-item">
-                <img class="slider__advanced-img" src="images/slider/advanced-2.jpg" alt="foto">
-              </div>
-              <div class="slider__advanced-item">
-                <img class="slider__advanced-img" src="images/slider/advanced-3.jpg" alt="foto">
-              </div>
+            <div class="slider__advanced-item">
+              <img class="slider__advanced-img" src="images/slider/advanced-2.jpg" alt="foto">
+            </div>
+            <div class="slider__advanced-item">
+              <img class="slider__advanced-img" src="images/slider/advanced-3.jpg" alt="foto">
             </div>
           </div>
-          <div class="routes__box">
-            <div class="routes-experience">
-              <h3 class="routes-experience__title">Experience</h3>
-              <p class="routes__price">от 3500 <span>₴</span></p>
-              <ul class="routes__list">
-                <li class="routes__item">
-                  <img class="routes__item-img" src="images/routes/icon-clock.svg" alt="icon clock">
-                  <p class="routes__item-time">Время в пути:</p>
-                  <p class="routes__item-hours ">4 часа</p>
-                </li>
-                <li class="routes__item">
-                  <img class="routes__item-img" src="images/routes/icon-marker.svg" alt="icon marker">
-                  <p class="routes__item-distance">Расстояние:</p>
-                  <p class="routes__item-num">40 - 50 км</p>
-                </li>
-                <li class="routes__item">
-                  <img class="routes__item-img" src="images/routes/icon-star.svg" alt="icon star">
-                  <p class="routes__item-difficulty">Сложность:</p>
-                  <p class="routes__item-stars ">5***</p>
-                </li>
-              </ul>
-              <div class="routes__marker">
-                <h4 class="routes__marker-title">Маршрут</h4>
-                <p class="routes__marker-text">
-                  курорт Яблуница – горный хребет Кукул (1539 м.) – урочище Козьмещик – курорт Яблуница
-                </p>
-                <a class="routes-more__btn" href="#">Подробнее</a>
-                <a class="routes-book__btn" href="#">Забронировать</a>
-              </div>
+
+
+        </div>
+
+        <div class="routes__box">
+          <div class="routes-experience">
+            <h3 class="routes-experience__title">Experience</h3>
+            <p class="routes__price">от 3500 <span>₴</span></p>
+            <ul class="routes__list">
+              <li class="routes__item">
+                <img class="routes__item-img" src="images/routes/icon-clock.svg" alt="icon clock">
+                <p class="routes__item-time">Время в пути:</p>
+                <p class="routes__item-hours ">4 часа</p>
+              </li>
+              <li class="routes__item">
+                <img class="routes__item-img" src="images/routes/icon-marker.svg" alt="icon marker">
+                <p class="routes__item-distance">Расстояние:</p>
+                <p class="routes__item-num">40 - 50 км</p>
+              </li>
+              <li class="routes__item">
+                <img class="routes__item-img" src="images/routes/icon-star.svg" alt="icon star">
+                <p class="routes__item-difficulty">Сложность:</p>
+                <p class="routes__item-stars ">5***</p>
+              </li>
+            </ul>
+            <div class="routes__marker">
+              <h4 class="routes__marker-title">Маршрут</h4>
+              <p class="routes__marker-text">
+                курорт Яблуница – горный хребет Кукул (1539 м.) – урочище Козьмещик – курорт Яблуница
+              </p>
+              <a class="routes-more__btn" href="#">Подробнее</a>
+              <a class="routes-book__btn" href="#">Забронировать</a>
             </div>
-            <div class="slider__experience">
+          </div>
+          <div class="slider__experience">
               <div class="slider__experience-item">
                 <img class="slider__experience-img" src="images/slider/experience-1.jpg" alt="foto">
               </div>
@@ -226,8 +251,11 @@
                 <img class="slider__experience-img" src="images/slider/experience-3.jpg" alt="foto">
               </div>
             </div>
-          </div>
         </div>
+
+
+      </div>
+
       </div>
     </section>
 
@@ -238,9 +266,11 @@
         <button class="route-selection__btn">Начать тест</button>
       </div>
     </div>
+
     <section class="foto" id="foto">
       <h2 class="foto__title title">Фото</h2>
       <div class="slider__foto">
+
         <div class="slider__foto-items">
           <div class="slider__foto-item">
             <img class="slider__foto-img" src="images/slider/slider-foto1.jpg" alt="foto">
@@ -248,6 +278,7 @@
             <img class="slider__foto-img" src="images/slider/slider-foto3.jpg" alt="foto">
           </div>
         </div>
+  
         <div class="slider__foto-items">
           <div class="slider__foto-item">
             <img class="slider__foto-img" src="images/slider/slider-foto1.jpg" alt="foto">
@@ -255,6 +286,7 @@
             <img class="slider__foto-img" src="images/slider/slider-foto3.jpg" alt="foto">
           </div>
         </div>
+  
         <div class="slider__foto-items">
           <div class="slider__foto-item">
             <img class="slider__foto-img" src="images/slider/slider-foto1.jpg" alt="foto">
@@ -262,14 +294,17 @@
             <img class="slider__foto-img" src="images/slider/slider-foto3.jpg" alt="foto">
           </div>
         </div>
+
       </div>
-      <div class="video">
+
+     <div class="video">
         <div class="video__bg">
           <img class="video__bg-img" src="images/photo/video.jpg" alt="video">
           <p class="video__name">Квадроциклы в Карпатах</p>
           <a data-fancybox class="video-link" href="https://youtu.be/VhbA4iGKQ6g"></a>
         </div>
       </div>
+
     </section>
 
     <section class="team">
@@ -368,6 +403,7 @@
               </div>
             </div>
           </div>
+
           <div class="special-offers__box">
             <div class="special-offers__item">
               <img class="special-offers__item-img" src="images/offers/offers-2.jpg" alt="images">
@@ -395,6 +431,7 @@
           Хотите сделать оригинальный подарок? <br> Подарите незабываемые эмоции - лучший подарок!
         </p>
         <div class="gift-certificates__items">
+
           <div class="gift-certificates__item">
             <p class="gift-certificates__item-text">
               Хотите удивить своих близких оригинальным подарком? Подарочный сертификат на экскурсию на квадроциклах
@@ -407,6 +444,7 @@
           <div class="gift-certificates__item">
             <img class="gift-certificates__item-img" src="images/offers/certificates.png" alt="images">
           </div>
+
         </div>
       </div>
     </section>
@@ -415,6 +453,7 @@
       <div class="container">
         <h2 class="questions__title title">Вопросы-ответы</h2>
         <div class="questions__inner">
+
           <div class="questions__items">
             <div class="questions__item questions__item--active">
               <h4 class="questions__item-title">
@@ -425,6 +464,7 @@
                 пляжа, через еловую рощу, затем через плато цветов и пресноводную реку.
               </p>
             </div>
+
             <div class="questions__item">
               <h4 class="questions__item-title">
                 Сколько времени катаются на квадроциклах?
@@ -434,6 +474,7 @@
                 пляжа, форсируете реку, проедете вдоль плато цветов и через рощу.
               </p>
             </div>
+
             <div class="questions__item">
               <h4 class="questions__item-title">
                 Подходит ли экскурсия для детей?
@@ -443,6 +484,7 @@
                 сами должны решить, готов ли ребенок к поездке на квадроциклах.
               </p>
             </div>
+
             <div class="questions__item">
               <h4 class="questions__item-title">
                 Сопровождает ли экскурсию фотограф?
@@ -453,6 +495,7 @@
               </p>
             </div>
           </div>
+
           <div class="questions__box">
             <img class="questions__box-img" src="images/questions/questions-1.svg" alt="images">
             <h3 class="questions__box-title">Есть вопросы?</h3>
@@ -462,6 +505,7 @@
             </p>
             <a class="questions__box-btn" href="#">Задать вопрос</a>
           </div>
+
         </div>
       </div>
     </section>
@@ -509,6 +553,7 @@
     <section class="contacts" id="contacts">
       <div class="container">
         <div class="contacts__inner">
+
           <div class="contacts__info">
             <h2 class="contacts__title title">Контакты</h2>
             <div class="contacts__items">
@@ -531,6 +576,7 @@
               </div>
             </div>
           </div>
+
           <div class="contacts__social">
             <h6 class="contacts__social-title">Написать нам:</h6>
             <ul class="contacts__social-list">
@@ -596,6 +642,7 @@
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
 
