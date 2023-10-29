@@ -9,7 +9,7 @@ $(function(){
 
 
 
-  $('.slider__base, .slider__advanced, .slider__experience').slick({
+  $('.slider__base, .slider__advanced, .slider__experience, .slider__excursion').slick({
 
     infinite: true,
     slidesToShow: 2,
@@ -94,5 +94,18 @@ $(function(){
     top = $(id).offset().top;
 		$('body,html').animate({scrollTop: top}, 1500);
 	});
+
+  $('.routes-more__btn').magnificPopup({
+		type: 'ajax',
+		alignTop: true,
+		overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+	});
+
+	$('.routes-more__btn').magnificPopup({
+		type: 'ajax'
+	});
+  
+
+
 
 });
