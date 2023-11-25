@@ -147,11 +147,11 @@ body{
 }
 
 .menu__link:hover{
-  border-bottom: 2px solid #037E8C;
+  border-bottom: 2px solid #DB7E02;
 }
 
 .menu__item--active{
-  color: #037E8C;
+  color: #DB7E02;
 }
 
 .menu__item-phone{
@@ -209,7 +209,7 @@ body{
   line-height: 108.7%;
   color: #fff;
   padding: 19px 75px 19px 23px;
-  background: #037E8C;
+  background: #DB7E02;
   border-radius: 9px;
   position: relative;
   margin-bottom: auto;
@@ -253,7 +253,7 @@ body{
 }
 
 .slider__header .slick-active button{
-  background: #037E8C
+  background: #DB7E02;
 }
 
 .benefits{
@@ -336,7 +336,7 @@ body{
   position: absolute;
   width: 81px;
   height: 4px;
-  background-color: #037E8C;
+  background-color: #DB7E02;
   top: 50%;
   left: -111px;
   bottom: 50%;
@@ -404,21 +404,34 @@ body{
 .routes-more__btn{
   display: inline-block;
   line-height: 130%;
-  color: #037E8C;
-  border: 1.5px solid #037E8C;
+  color: #DB7E02;
+  border: 1.5px solid #DB7E02;
   border-radius: 9px;
   padding: 14px 44px 13px 45px;
   margin-right: 15px;
+  transition: all .3s;
+}
+
+.routes-more__btn:hover{
+  background-color: #DB7E02;
+  color: #fff;
 }
 
 .routes-book__btn{
   display: inline-block;
   line-height: 130%;
   color: #fff;
-  background: #037E8C;
+  background: #DB7E02;
+  border: 1.5px solid #DB7E02;
   border-radius: 9px;
   padding: 14px 29px 13px;
   margin-bottom: 148px;
+  transition: all .3s;
+}
+
+.routes-book__btn:hover{
+  color: #DB7E02;
+  background: #fff;
 }
 
 .slider__base,
@@ -503,16 +516,18 @@ body{
   border: none;
   margin: 0 8px;
   width: 8px;
-  height: 12px;
+  height: 14px;
   border-radius: 50%;
-  background-color: #121214;
+  /* background-color: #121214; */
+  background-color: transparent;
+  border: 1px solid #DB7E02;
 }
 
 .slider__base .slick-active button,
 .slider__advanced .slick-active button,
 .slider__experience .slick-active button,
 .slider__excursion .slick-active button{
-  background: #037E8C
+  background: #DB7E02;
 }
 
 .route-selection{
@@ -544,11 +559,17 @@ body{
   display: inline-block;
   line-height: 130%;
   color: #fff;
-  background: #037E8C;
+  background: #DB7E02;
   border-radius: 9px;
   padding: 14px 43px 13px 44px;
   border: none;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.route-selection__btn:hover{
+  color: #DB7E02;
+  background: #fff;
 }
 
 .foto{
@@ -616,13 +637,15 @@ body{
   border: none;
   margin: 0 8px;
   width: 8px;
-  height: 12px;
+  height: 14px;
   border-radius: 50%;
-  background-color: #121214;
+  /* background-color: #121214; */
+  background-color: transparent;
+  border: 1px solid #DB7E02;
 }
 
 .slider__foto .slick-active button{
-  background: #037E8C
+  background: #DB7E02;
 }
 
 .video{
@@ -721,7 +744,7 @@ body{
   font-weight: 700;
   font-size: 24px;
   line-height: 130%;
-  color: #037E8C;
+  color: #DB7E02;
 }
 .team__item-position{
   font-weight: 400;
@@ -837,7 +860,7 @@ body{
   font-weight: 800;
   font-size: 36px;
   line-height: 130%;
-  color: #037E8C;
+  color: #DB7E02;
   width: 247px;
 }
 
@@ -854,15 +877,21 @@ body{
 
 .special-offers__discount-btn{
   line-height: 130%;
-  color: #037E8C;
+  color: #DB7E02;
   padding: 14px 44px 13px 45px;
   display: inline-block;
-  border: 1.5px solid #037E8C;
+  border: 1.5px solid #DB7E02;
   border-radius: 9px;
   margin-top: 14px;
   position: relative;
   z-index: 3;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.special-offers__discount-btn:hover{
+  background-color: #DB7E02;
+  color: #fff;
 }
 
 .gift-certificate{
@@ -904,10 +933,16 @@ body{
 .gift-certificates__item-btn{
   display: inline-block;
   line-height: 130%;
-  color: #037E8C;
-  border: 1.5px solid #037E8C;
+  color: #DB7E02;
+  border: 1.5px solid #DB7E02;
   border-radius: 9px;
   padding: 14px 22px 13px 23px;
+  transition: all .3s;
+}
+
+.gift-certificates__item-btn:hover{
+  background-color: #DB7E02;
+  color: #fff;
 }
 
 .questions{
@@ -949,7 +984,7 @@ body{
 }
 
 .questions__item--active{
-  border: 0.5px solid #037E8C;
+  border: 0.5px solid #DB7E02;
   border-radius: 2px;  
 }
 
@@ -1013,9 +1048,16 @@ body{
 .questions__box-btn{
   line-height: 130%;
   color: #fff;
-  background: #037E8C;
+  background: #DB7E02;
   border-radius: 9px;
   padding: 13px 33px 14px 33px;
+  border: 1px solid #DB7E02;
+  transition: all .3s;
+}
+
+.questions__box-btn:hover{
+  color: #DB7E02;
+  background: #fff;
 }
 
 .additional-services{
@@ -1046,7 +1088,7 @@ body{
 .additional-services__text{
   font-size: 18px;
   line-height: 130%;
-  color: #037E8C;
+  color: #DB7E02;
   padding: 22px 90px 26px 24px;
 }
 
@@ -1060,7 +1102,7 @@ body{
 
 .contacts__title{
   text-align: left;
-  border-top: 3px solid #037E8C;
+  border-top: 3px solid #DB7E02;
   width: 635px;
   margin-bottom: 64px;
 }
@@ -1110,6 +1152,7 @@ body{
   top: 0;
   right: 0;
   width: 49%;
+  filter: grayscale(100%);
 }
 
 .footer__top{
@@ -1176,8 +1219,8 @@ body{
 .excursion__btn{
   display: inline-block;
   line-height: 130%;
-  color: #037E8C;
-  border: 1.5px solid #037E8C;
+  color: #DB7E02;
+  border: 1.5px solid #DB7E02;
   border-radius: 9px;
   padding: 13px 24px 14px 25px;
   /* margin-right: 15px; */
@@ -1255,7 +1298,7 @@ body{
   font-weight: 700;
   font-size: 20px;
   line-height: 130%;
-  color: #037E8C;
+  color: #DB7E02;
   padding: 0 0 9px;
 }
 
