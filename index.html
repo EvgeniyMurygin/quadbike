@@ -8,10 +8,10 @@
   <title>Экскурсии на квадроциклах</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="css/slick.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -64,9 +64,9 @@
         </div>
 
 
-        <h1 class="header__title">Экскурсии на квадроциклах по горам</h1>
-        <p class="header__text">приезжайте за новыми ощущениями и эмоциями!</p>
-        <a class="header__btn" href="#">Подобрать маршрут</a>
+        <h1 data-wow-delay=".5s" class="header__title wow animate__lightSpeedInLeft">Экскурсии на квадроциклах по горам</h1>
+        <p data-wow-delay="1.5s" class="header__text wow animate__lightSpeedInLeft">приезжайте за новыми ощущениями и эмоциями!</p>
+        <a data-wow-delay="2s" class="header__btn wow animate__lightSpeedInLeft" href="#">Подобрать маршрут</a>
       </div>
     </div>
 
@@ -137,19 +137,8 @@
                 <p class="routes__marker-text">
                   курорт Яремче – горная долина Щивка (700 м.) – гора Синячка (1400 м.) – приселок Дора – курорт Яремче
                 </p>
-                <!-- <a class="routes-more__btn" href="../quadbike/excursion.html">Подробнее</a> -->
-
-
-                <a href="iframe.html" data-fancybox data-type="iframe" data-width="1300" data-height="1080"
-                  class="routes-more__btn">
-                  Подробнее
-                </a>
-
-                <!-- <a class="simple-ajax-popup-align-top" href="site-assets/ajax/excursion.html">Load content via ajax</a><br>
-                <a class="simple-ajax-popup" href="site-assets/ajax/excursion.html">Load another content via ajax</a> -->
-
-
-
+                <!-- <a class="routes-more__btn" href="iframe.html" data-fancybox data-type="iframe" data-width="1300" data-height="900">Подробнее</a> -->
+                <a class="routes-more__btn" href="#">Подробнее</a>
                 <a class="routes-book__btn" href="#">Забронировать</a>
               </div>
             </div>
@@ -197,10 +186,8 @@
                 <p class="routes__marker-text">
                   курорт Яблуница – перевал Околы (Черная Тиса) – поселок Быстрица – курорт Яблуница
                 </p>
-                <a href="iframe.html" data-fancybox data-type="iframe" data-width="1300" data-height="1080"
-                  class="routes-more__btn">
-                  Подробнее
-                </a>
+                <!-- <a href="iframe.html" data-fancybox data-type="iframe" data-width="1300" data-height="1080" class="routes-more__btn">Подробнее</a> -->
+                <a class="routes-more__btn" href="#">Подробнее</a>
                 <a class="routes-book__btn" href="#">Забронировать</a>
               </div>
             </div>
@@ -246,10 +233,8 @@
                 <p class="routes__marker-text">
                   курорт Яблуница – горный хребет Кукул (1539 м.) – урочище Козьмещик – курорт Яблуница
                 </p>
-                <a href="iframe.html" data-fancybox data-type="iframe" data-width="1300" data-height="1080"
-                  class="routes-more__btn">
-                  Подробнее
-                </a>
+                <!-- <a href="iframe.html" data-fancybox data-type="iframe" data-width="1300" data-height="1080" class="routes-more__btn">Подробнее</a> -->
+                <a class="routes-more__btn" href="#">Подробнее</a>
                 <a class="routes-book__btn" href="#">Забронировать</a>
               </div>
             </div>
@@ -318,34 +303,36 @@
         </div>
       </div>
 
+      
+
     </section>
 
     <section class="team">
       <div class="container">
         <h2 class="team__title title">Наша команда</h2>
         <div class="team__items">
-          <div class="team__item">
+          <div data-wow-delay="1.5s"class="team__item wow animate__fadeInLeftBig">
             <img class="team__item-img" src="images/team/foto-1.jpg" alt="images">
             <div class="team__item-desc">
               <h4 class="team__item-name">Юлиана</h4>
               <p class="team__item-position">руководитель</p>
             </div>
           </div>
-          <div class="team__item">
+          <div data-wow-delay=".5s" class="team__item wow animate__fadeInLeftBig">
             <img class="team__item-img" src="images/team/foto-2.jpg" alt="images">
             <div class="team__item-desc">
               <h4 class="team__item-name">Максим</h4>
               <p class="team__item-position">старший инструктор</p>
             </div>
           </div>
-          <div class="team__item">
+          <div data-wow-delay="1s"class="team__item wow animate__fadeInRightBig">
             <img class="team__item-img" src="images/team/foto-3.jpg" alt="images">
             <div class="team__item-desc">
               <h4 class="team__item-name">Кристина</h4>
               <p class="team__item-position">администратор</p>
             </div>
           </div>
-          <div class="team__item">
+          <div data-wow-delay="2s"class="team__item wow animate__fadeInRightBig">
             <img class="team__item-img" src="images/team/foto-4.jpg" alt="images">
             <div class="team__item-desc">
               <h4 class="team__item-name">Юрий</h4>
@@ -400,7 +387,7 @@
         <h2 class="special-offers__title title">Спецпредложения</h2>
         <div class="special-offers__inner">
 
-          <div class="special-offers__box">
+          <div data-wow-delay=".5s" class="special-offers__box wow animate__fadeInLeftBig">
             <div class="special-offers__item">
               <img class="special-offers__item-img" src="images/offers/offers-1.jpg" alt="images">
             </div>
@@ -417,7 +404,7 @@
             </div>
           </div>
 
-          <div class="special-offers__box">
+          <div data-wow-delay="1s" class="special-offers__box wow animate__fadeInRightBig">
             <div class="special-offers__item">
               <img class="special-offers__item-img" src="images/offers/offers-2.jpg" alt="images">
             </div>
@@ -454,7 +441,7 @@
             <a class="gift-certificates__item-btn" href="#">Подберем сертификат для вас</a>
           </div>
 
-          <div class="gift-certificates__item">
+          <div data-wow-delay="1s" class="gift-certificates__item wow animate__rollIn">
             <img class="gift-certificates__item-img" src="images/offers/certificates.png" alt="images">
           </div>
 
@@ -657,6 +644,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
 
 </body>

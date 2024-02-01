@@ -8,10 +8,10 @@
   <title>Экскурсии на квадроциклах</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="css/slick.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -168,7 +168,42 @@
 
   <footer class="footer__excursion">
     <div class="container">
-      <div class="excursion__booking">
+      <div class="footer__inner">
+        <h4 class="tour-price__title">Бронирование онлайн</h4>
+
+        <div class="contacts__inner-form">
+          <form class="contacts__form">
+            <div class="data">
+              <p class="contacts__data-title">Желаемая дата</p>
+              <input type="date">
+            </div>
+            <div class="jq-number product-one__item-num">
+              <p class="contacts__number-title">Количество человек</p>
+              <div class="jq-number__field">
+                <input class="product-one__item-num" type="number" value="1" min="1">
+              </div>
+              <div class="jq-number__spin minus"></div>
+              <div class="jq-number__spin plus"></div>
+            </div>
+            <!-- <div class="contacts__input-user">
+              <input class="contacts__input" type="text" placeholder="Введите Ваше имя">
+              <i class="fa" aria-hidden="true"></i>
+            </div> -->
+
+            <div class="contacts__input-phone">
+              <p class="contacts__phone-title">Телефон или WhatsApp</p>
+              <input class="contacts__input" type="tel">
+              <i class="contacts-input" aria-hidden="true"></i>
+            </div>
+
+            <div class="contacts__input-user">
+              <p class="contacts__user-title">Как к Вам обращаться?</p>
+              <input class="contacts__input" type="user">
+              <i class="contacts-input" aria-hidden="true"></i>
+            </div>
+          </form>
+          <button class="contacts__btn" type="submit">Забронировать</button>
+        </div>
 
       </div>
     </div>
@@ -181,6 +216,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.fancybox.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>

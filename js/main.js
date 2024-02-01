@@ -8,6 +8,20 @@ $(function(){
   });
 
 
+  wow = new WOW(
+    {
+    boxClass:     'wow',      // default
+    animateClass: 'animate__animated', // default
+    offset:       0,          // default
+    mobile:       true,       // default
+    live:         true        // default
+  }
+  )
+  wow.init();
+
+
+
+
 
   $('.slider__base, .slider__advanced, .slider__experience, .slider__excursion').slick({
 
@@ -94,18 +108,6 @@ $(function(){
     top = $(id).offset().top;
 		$('body,html').animate({scrollTop: top}, 1500);
 	});
-
-  $('.routes-more__btn').magnificPopup({
-		type: 'ajax',
-		alignTop: true,
-		overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-	});
-
-	$('.routes-more__btn').magnificPopup({
-		type: 'ajax'
-	});
-  
-
 
 
 });
